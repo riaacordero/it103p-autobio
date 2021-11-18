@@ -1,0 +1,48 @@
+body{
+    background-color: #1E272D;
+}
+
+header{
+    background-color: #1E272D;
+}
+
+h1,
+h4{
+    font-family: 'Source Code Pro', monospace;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    font-family: 'Source Code Pro', monospace;
+    list-style: none;
+}
+
+li:hover{
+    color: #FF9900;
+    cursor: pointer;
+
+}
+
+main{
+    background-image: url('assets/bg-img.png');
+    text-align: center;
+}
+
+/* colors */
+.white{
+    color:white;
+}
+
+/* header */
+.logo{
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.items{
+    justify-self: end;
+    margin-right: 20px;
+}
