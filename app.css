@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: white;
 }
@@ -10,8 +13,6 @@ h4{
 
 p{
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    text-align-last: left;
     width: 400px;}
 
 li{
@@ -25,7 +26,6 @@ li:hover{
 }
 
 a{
-    font-size: 25px;
     gap:0.5em;
     list-style: none;
     padding-right: 7.5px;
@@ -52,6 +52,25 @@ a:hover{
     color:white;
 }
 
+.bg-colored{
+    background-color: #E3B5BF;
+}
+
+.black{
+    color: #1E272D;
+}
+
+/* alignment */
+
+.left-align{
+    text-align: justify;
+    text-align-last: left;
+}
+
+.right-align{
+    text-align: justify;
+    text-align-last: right;
+}
 /* header */
 header{
     padding: 1.5em;
@@ -68,8 +87,21 @@ header{
     align-items: center;
     justify-content: center;
     padding-top: 4em;
+    gap: 2em;
 }
+
 .background{
     background-image: url('assets/bg-img.png');
     background-color: #ffffff;
+}
+
+/* about */
+
+.showcase{
+    transition: all 0.2s ease-in-out;
+}
+
+.showcase:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
 }
