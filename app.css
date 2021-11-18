@@ -13,7 +13,7 @@ h4{
 
 p{
     font-family: 'Montserrat', sans-serif;
-    width: 400px;}
+}
 
 li{
     font-family: 'Source Code Pro', monospace;
@@ -86,7 +86,7 @@ header{
 .main{
     align-items: center;
     justify-content: center;
-    padding-top: 4em;
+    padding: 4em;
     gap: 2em;
 }
 
@@ -98,6 +98,8 @@ header{
 /* about */
 
 .showcase{
+    border-width: 10px;
+    border-color: #ffffff;
     transition: all 0.2s ease-in-out;
 }
 
