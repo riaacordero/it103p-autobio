@@ -1,19 +1,18 @@
 body{
-    background-color: #1E272D;
-}
-
-header{
-    background-color: #1E272D;
+    background-color: white;
 }
 
 h1,
 h4{
     font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
 }
 
 p{
     font-family: 'Montserrat', sans-serif;
-}
+    text-align: justify;
+    text-align-last: left;
+    width: 400px;}
 
 li{
     font-family: 'Source Code Pro', monospace;
@@ -21,28 +20,56 @@ li{
 }
 
 li:hover{
-    color: #FF9900;
+    color: #E3B5BF;
     cursor: pointer;
-
 }
 
-main{
-    background-image: url('assets/bg-img.png');
-    text-align: center;
+a{
+    font-size: 25px;
+    gap:0.5em;
+    list-style: none;
+    padding-right: 7.5px;
+    color:#1E272D;
+    text-decoration: none;
+}
+a:hover{
+    color: #E3B5BF;
+    cursor: pointer;
 }
 
+/* flex */
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
 /* colors */
 .white{
     color:white;
 }
 
 /* header */
-.logo{
-    justify-self: start;
-    margin-left: 20px;
+header{
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    justify-content: center;
+    background-color: #1E272D;
 }
 
-.items{
-    justify-self: end;
-    margin-right: 20px;
+/* main */
+
+.main{
+    align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+}
+.background{
+    background-image: url('assets/bg-img.png');
+    background-color: #ffffff;
 }
