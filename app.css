@@ -47,6 +47,7 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
+
 /* colors */
 .white{
     color:white;
@@ -54,10 +55,6 @@ a:hover{
 
 .bg-colored{
     background-color: #E3B5BF;
-}
-
-.black{
-    color: #1E272D;
 }
 
 /* alignment */
@@ -71,7 +68,13 @@ a:hover{
     text-align: justify;
     text-align-last: right;
 }
-/* header */
+
+.center-align{
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* header items */
 header{
     padding: 1.5em;
     display: grid;
@@ -95,12 +98,17 @@ header{
     background-color: #ffffff;
 }
 
+.icons{
+    font-size: 25px;
+}
+
 /* about */
 
 .showcase{
     border-width: 10px;
     border-color: #ffffff;
     transition: all 0.2s ease-in-out;
+    cursor:default;
 }
 
 .showcase:hover{
