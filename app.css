@@ -5,8 +5,7 @@ body{
     background-color: white;
 }
 
-h1,
-h4{
+h1{
     font-family: 'Source Code Pro', monospace;
     font-weight: 900;
 }
@@ -53,8 +52,15 @@ a:hover{
     color:white;
 }
 
+/* background */
+
 .bg-colored{
     background-color: #E3B5BF;
+}
+
+.bg-img{
+    background-image: url('assets/bg-img.png');
+    background-color: #ffffff;
 }
 
 /* alignment */
@@ -91,11 +97,6 @@ header{
     justify-content: center;
     padding: 4em;
     gap: 2em;
-}
-
-.background{
-    background-image: url('assets/bg-img.png');
-    background-color: #ffffff;
 }
 
 .icons{
