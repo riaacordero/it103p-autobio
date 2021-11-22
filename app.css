@@ -116,3 +116,10 @@ header{
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
 }
+
+footer{
+    justify-content: center;
+    text-align: center;
+    background-color: #1E272D;
+    padding: 1.5em;
+}
