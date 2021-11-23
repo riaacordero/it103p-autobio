@@ -99,6 +99,10 @@ header{
     gap: 2em;
 }
 
+.background{
+    background-image: url('assets/bg-img.png');
+}
+
 .icons{
     font-size: 25px;
 }
